@@ -1,0 +1,16 @@
+.bg_nav{
+  background-color: #2C3E50;
+  height: 50px;
+}
+
+.bg_jumbotron{
+  height: 400px;
+  background-color: #1ABC9C;
+}
+
+.product{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
