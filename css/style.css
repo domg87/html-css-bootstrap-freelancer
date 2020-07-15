@@ -8,9 +8,38 @@
   background-color: #1ABC9C;
 }
 
-.product{
-  display: inline-block;
+.portfolio_wrapper{
+}
+
+.portfolio_text{
+  height: 50px;
+  background-color: blue;
+  margin-top: 100px;
+}
+
+.portfolio{
   height: 100px;
   width: 100px;
   background-color: red;
+  border: 1px solid #fff;
+}
+
+.bg_about{
+  height: 250px;
+  background-color: #1ABC9C;
+}
+
+.bg_contact{
+  height: 300px;
+  background-color: #fff;
+}
+
+.bg_social{
+  height: 150px;
+  background-color: #3A546D;
+}
+
+.footer{
+  height: 100px;
+  background-color: #2C3E50;
 }
