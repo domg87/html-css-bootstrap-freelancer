@@ -11,71 +11,107 @@
   <body>
     <!-- INTESTAZIONE -->
     <header>
-      <div class="container">
-        <nav class="row bg_nav">
-          <div class="col-xs-10 col-sm-4 col-md-4">
-            <div class="logo"></div>
+      <div class="header_top">
+        <div class="container bg_nav">
+          <div class="row ">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="logo">START BOOTSTRAP</div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+              <nav class="visible-md visible-lg">
+                <ul class="list-group">
+                  <li class="list-group-item">lol</li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"></li>
+                </ul>
+              </nav>
+              <div class="visible-xs-inline-block visible-sm">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="col-xs-2 col-sm-8 col-md-8">
-            <ul class="list-group nav-justified">
-              <li class="list-group-item"></li>
-              <li class="list-group-item"></li>
-              <li class="list-group-item"></li>
-            </ul>
-          </div>
-        </nav>
+        </div>
       </div>
     </header>
     <!-- /INTESTAZIONE -->
+
     <!-- CONTENUTO PRINCIPALE -->
     <main>
-      <div class="container">
-        <div id="jumbotron" class="row bg_jumbotron">
-          <div class="col-xs-12 col-sm-12 col-md-12"></div>
-        </div>
-        <!-- PORTFOLIO -->
-        <section class="row portfolio_wrapper">
-          <div class="portfolio_text col-md-12 col-sm-12 col-xs-12">lololololololo</div>
-          <div class="portfolio col-md-3 col-md-offset-1 col-sm-6 col-xs-12"></div>
-          <div class="portfolio col-md-3 col-sm-6 col-xs-12"></div>
-          <div class="portfolio col-md-3 col-sm-6 col-xs-12"></div>
-          <div class="portfolio col-md-3 col-md-offset-1 col-sm-6 col-xs-12"></div>
-          <div class="portfolio col-md-3 col-sm-6 col-xs-12"></div>
-          <div class="portfolio col-md-3 col-sm-6 col-xs-12"></div>
-        </section>
-        <!-- /PORTFOLIO -->
-        <!-- ABOUT -->
-        <div class="bg_about row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+      <section
+        <div class="container jumbo bg_jumbotron">
+          <div class="jumbo_text">
+            <div class="">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
           </div>
         </div>
-        <!-- /ABOUT -->
-        <!-- CONTACT ME -->
-        <div class="bg_contact row">
-          <div class="col-md-12 col-sm-12 col-xs-12"></div>
+      </section>
+
+        <!-- PORTFOLIO -->
+      <section id="portfolio" class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="portfolio_text col-md-12 col-sm-12 col-xs-12">lololololololo</div>
+            <div class="portfolio-box col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="portfolio-box col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="portfolio-box col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="portfolio-box col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="portfolio-box col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="portfolio-box col-md-4 col-sm-6 col-xs-12"></div>
+          </div>
         </div>
+      </section>
+        <!-- /PORTFOLIO -->
+
+        <!-- ABOUT -->
+      <section id="about">
+        <div class="container">
+          <div class="bg_about row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- /ABOUT -->
+
+        <!-- CONTACT ME -->
+      <section id="contact_me">
+        <div class="container">
+          <div class="bg_contact row">
+            <div class="col-md-12 col-sm-12 col-xs-12"></div>
+          </div>
+        </div>
+      </section>
+
         <!-- //CONTACT ME -->
 
-        <div class="bg_social row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      <section id="social">
+        <div class="container">
+          <div class="bg_social row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <!-- /CONTENUTO PRINCIPALE -->
+
     <!-- FOOTER -->
     <footer>
         <div class="container footer">
