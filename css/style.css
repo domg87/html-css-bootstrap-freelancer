@@ -37,8 +37,6 @@ z-index: 1;
   color: #1ABC9C;
 }
 
-
-
 /* NAV */
 
 /* JUMBO */
@@ -59,26 +57,84 @@ z-index: 1;
   text-align: center;
 }
 
-/* //JUMBO */
-
-
-.wrapper{
-  margin:auto;
+.avatar{
+  width: 15rem;
+  vertical-align: middle;
 }
 
-.portfolio_text{
-  height: 50px;
-  background-color: blue;
-  margin-top: 100px;
+.text_white_title {
+  color: #fff;
+  font-size: 6rem;
+}
+
+
+
+/* .divider_l {
+  float: left;
+  display: inline-block;
+  width: 60px;
+  border-bottom: 2px solid white;
+}
+
+.divider_r{
+  float: right;
+  display: inline-block;
+  height: 1px;
+  width: 60px;
+  border-bottom: 2px solid white;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.divider_icon i{
+  color: #fff;
+}
+/* //JUMBO */
+
+/* CLASS UNIX */
+
+.text_white {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+.p_top_80{
+  padding-top: 80px;
+}
+
+.p_bottom_80 {
+  padding-bottom: 80px;
+}
+
+/* CLASS UNIX */
+
+.wrapper_small{
+  margin:auto;
+  max-width: 800px;
 }
 
 .portfolio-box{
-  height: 100px;
-  width: 100px;
-  margin: 10px;
-  background-color: red;
+  margin-bottom: 30px;
 }
 
+.img_portfolio{
+  max-width: 100%;
+}
+
+.portfolio-box{
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+/* ABOUT */
 .bg_about{
   height: 250px;
   background-color: #1ABC9C;
