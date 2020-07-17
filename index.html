@@ -13,7 +13,7 @@
     <!-- INTESTAZIONE -->
     <header>
       <div class="header_top">
-        <div class="container bg_nav">
+        <div class="container bg_blue">
           <div class="row ">
             <div class="col-xs-9 col-sm-6 col-md-6">
               <div class="logo">START BOOTSTRAP</div>
@@ -50,19 +50,22 @@
         <div class="bg_jumbotron jumbo_text">
           <img class="avatar"src="img/avataaars.svg" alt="">
           <h1 class="text_white_title">start boostrap</h1>
-          <div class="dec_star">ciao
-            <!-- <i class="fas fa-star"></i> -->
+          <div class="dec_star">
+            <i class="fas fa-star"></i>
           </div>
-        <p class="text_white">Graphic Artist - Web Designer - Illustrator</p>
+        <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
       </section>
 
         <!-- PORTFOLIO -->
-      <section id="portfolio" class="wrapper">
+      <section id="portfolio" class="p_top_80 p_bottom_80">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
               <h2 class="text-uppercase">portfolio</h2>
+              <div class="dec_star dec_star_dark">
+                <i class="fas fa-star"></i>
+              </div>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="portfolio-box">
@@ -123,6 +126,9 @@
           <div class="container-fluid">
             <div class="row text-center">
               <h2 class="text-uppercase">about</h2>
+              <div class="dec_star">
+                <i class="fas fa-star"></i>
+              </div>
             </div>
             <div class="row text_white">
               <div class="col-md-6 col-sm-6 col-xs-12">
@@ -130,6 +136,11 @@
               </div>
               <div class="col-md-6 col-sm-6 col-xs-12">
                 <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!></p>
+              </div>
+              <div class="col-xs-12 text-center">
+                <button type="button" class="btn btn-lg btn_download">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Free Download
+                </button>
               </div>
             </div>
           </div>
@@ -140,29 +151,38 @@
 
         <!-- CONTACT ME -->
       <section id="contact_me" class="p_top_80 p_bottom_80">
-        <h2 class="text-center text-uppercase">Contact me</h2>
         <div class="container wrapper_small">
-          <div class=" bg_contact row p_top_80 p_bottom_80">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Name</label>
-                  <input type="name" class="form-control" placeholder="name">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Email address</label>
-                  <input type="email" class="form-control" placeholder="email">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Phone Number</label>
-                  <input type="Phone" class="form-control" placeholder="Phone">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Message</label>
-                  <input type="Message" class="form-control" placeholder="Message">
-                </div>
-                <button type="submit" class="btn btn-success">Submit</button>
-              </form>
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h2 class="text-uppercase">portfolio</h2>
+              <div class="dec_star dec_star_dark">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" bg_contact row p_top_80 p_bottom_80">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="name" class="form-control" placeholder="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Email address</label>
+                    <input type="email" class="form-control" placeholder="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Phone Number</label>
+                    <input type="Phone" class="form-control" placeholder="Phone">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Message</label>
+                    <input type="Message" class="form-control" placeholder="Message">
+                  </div>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -171,26 +191,25 @@
         <!-- //CONTACT ME -->
 
         <!-- SOCIAL -->
-      <section id="social">
-        <div class="container">
-          <div class="bg_social row">
-            <div class="text_white col-md-4 col-sm-4 col-xs-12">
-              <h3 class="text-center text-uppercase">location</h3>
-              <p class="text-center text_white_p">2215 JohnDaniel Drive Clark, MO 65243</p>
+      <section id="social" class="text-center">
+        <div class="container ">
+          <div class="bg_blue row">
+            <div class="text_white col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <h3 class="text-uppercase">location</h3>
+              <p>2215 JohnDaniel Drive Clark, MO 65243</p>
             </div>
-            <div class="text_white col-md-4 col-sm-4 col-xs-12">
+            <div class="text_white col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <h3 class="text-center text-uppercase">AROUND THE WEB</h3>
               <ul class="social_list">
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
               </ul>
             </div>
-            <div class="text_white col-md-4 col-sm-4 col-xs-12">
+            <div class="text_white col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <h3 class="text-center text-uppercase">ABOUT FREELANCER</h3>
-              <p class="text-center text_white_p">Freelance is a free to use, MIT licensed Bootstrap theme created by</p>
+              <p class="text-center text_white_p">Freelance is a free to use, MIT licensed Bootstrap theme created by <a class="link_green" href="#"> Start Bootstrap</a></p>
             </div>
           </div>
         </div>
@@ -200,9 +219,9 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="container footer">
+        <div class="container footer bg_footer text-center footer_bottom">
         <div class="col-md-12 col-sm-12 col-xs-12">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>Copyright © Your Website 2020</p>
         </div>
       </div>
     </footer>
